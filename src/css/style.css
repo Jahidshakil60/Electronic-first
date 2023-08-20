@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+
+.hero_container {
+  background: url(../../public/starfield1.jpg);
+  background-color: #7a7a7aad;
+  background-position: center;
+  background-size: auto;
+  background-blend-mode: darken;
+  height: 90vh;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 90.25%);
+}
+
+.nav-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  padding: 8px 10px;
+}
+
+.nav-item_middle {
+  display: flex;
+  gap: 30px;
+  margin-top: -20px;
+}
+
+.nav-element_single {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 450px;
+  margin: -10px auto;
+  font-size: 12px;
+  background: linear-gradient(90deg, #181818 0%, #505050 65%, #616161 100%);
+  padding: 0 20px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.single-item {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+}
+
+.nintendo-link {
+  margin-right: 35px;
+}
+.material-symbols-outlined {
+  font-size: 14px;
+}
+.search {
+  background: #ff7220;
+  position: absolute;
+  right: 0;
+  height: 100%;
+  width: 42px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.search_input {
+  background: #ff7220;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border: none;
+  border-radius: 20px;
+  padding-left: 20px;
+}
+
+.search_text {
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+.active {
+  display: none;
+}
+
+.cross_input {
+  font-size: 25px;
+  rotate: 45de;
+  position: absolute;
+  right: 0;
+  transform: translateX(30px) rotate(45deg);
+}
+
+.nav_popup {
+  background: linear-gradient(135deg, #1d1f3ddc 0%, #7c7c7c 65%, #9e7e69 100%);
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 450px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  display: none;
+}
+
+.popup-heading_first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4a505ce5;
+  padding: 0 10px;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.popup_item {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 15px;
+  column-gap: 20px;
+  row-gap: 15px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  border-radius: 20px;
+  padding-left: 10px;
+}
+
+.item:hover {
+  background: #586068ab;
+}
+
+.item-logo {
+  width: 15px;
+  height: 15px;
+}
+
+.tranding {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 150px;
+}
